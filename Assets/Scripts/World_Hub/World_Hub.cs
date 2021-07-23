@@ -51,16 +51,4 @@ public class World_Hub : MonoBehaviour
             }
         }
     }
-
-    private string SomarStrings(string a, string b)
-    {
-        int v1 = int.Parse(a);
-        int v2 = int.Parse(b);
-
-        int v3 = v1 + v2;
-
-        string resultado = v3.ToString();
-
-        return resultado;
-    }
 }

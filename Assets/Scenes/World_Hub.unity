@@ -488,7 +488,7 @@ PrefabInstance:
     - target: {fileID: 4044663685552777549, guid: 507d0be36e3869645a94579c19fee559,
         type: 3}
       propertyPath: m_TagString
-      value: World_Hub_Icon
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 507d0be36e3869645a94579c19fee559, type: 3}
