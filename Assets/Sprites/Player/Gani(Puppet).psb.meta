@@ -96,22 +96,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 274
-      y: 1097
+      x: 915
+      y: 557
       width: 140
       height: 245
     spriteID: ba543aee4ce2f4f4382c4177cb996e2f
     internalID: 0
     spriteBone:
     - name: MaoD
-      position: {x: 314.5129, y: 0.000057829726, z: 3}
-      rotation: {x: 0, y: 0, z: 0.012317184, w: 0.9999242}
-      length: 186.43857
+      position: {x: 314.51257, y: 0.00006245802, z: 3}
+      rotation: {x: 0, y: 0, z: -0.0006457495, w: 0.9999998}
+      length: 182.19539
       parentId: 1
     - name: AntebracoD
-      position: {x: 5.736023, y: 535.59155, z: 2}
-      rotation: {x: 0, y: 0, z: 0.6610228, w: -0.75036585}
-      length: 314.5129
+      position: {x: 12.564392, y: 510.41394, z: 2}
+      rotation: {x: 0, y: 0, z: 0.6610206, w: -0.7503678}
+      length: 314.51273
       parentId: -1
     spriteOutline: []
     vertices:
@@ -519,7 +519,7 @@ ScriptedImporter:
     - {x: 0, y: 28}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -358, y: 426}
+    uvTransform: {x: 343, y: -125}
   - name: AntebracoD
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -527,22 +527,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 728
-      y: 792
+      x: 732
+      y: 557
       width: 175
       height: 338
     spriteID: 25f5f23cb5515a34184723b8585b554d
     internalID: 0
     spriteBone:
     - name: AntebracoD
-      position: {x: 329.47662, y: 0.00011515664, z: 2}
-      rotation: {x: 0, y: 0, z: 0.29919934, w: 0.9541906}
-      length: 314.51288
+      position: {x: 338.04694, y: 0.0001095503, z: 2}
+      rotation: {x: 0, y: 0, z: 0.3213029, w: 0.9469765}
+      length: 314.5127
       parentId: 1
     - name: BracoD
-      position: {x: 226.25323, y: 627.6421, z: 1}
-      rotation: {x: 0, y: 0, z: 0.8552507, w: -0.5182145}
-      length: 329.4769
+      position: {x: 250.8075, y: 602.46375, z: 1}
+      rotation: {x: 0, y: 0, z: 0.86706626, w: -0.4981929}
+      length: 338.047
       parentId: -1
     spriteOutline: []
     vertices:
@@ -922,7 +922,7 @@ ScriptedImporter:
     - {x: 0, y: 30}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 164, y: -79}
+    uvTransform: {x: 228, y: -325}
   - name: BracoD
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -930,22 +930,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 441
-      y: 997
+      x: 445
+      y: 515
       width: 277
       height: 413
     spriteID: 87d87edc32ffafc40a92181b047e0cc7
     internalID: 0
     spriteBone:
     - name: AntebracoD
-      position: {x: 329.4769, y: 0.000083090184, z: 2}
-      rotation: {x: 0, y: 0, z: 0.29919934, w: 0.9541906}
-      length: 314.51288
+      position: {x: 338.04697, y: 0.000025885249, z: 2}
+      rotation: {x: 0, y: 0, z: 0.3213029, w: 0.9469765}
+      length: 314.5127
       parentId: 1
     - name: BracoD
-      position: {x: 207.25323, y: 359.6421, z: 1}
-      rotation: {x: 0, y: 0, z: 0.8552507, w: -0.5182145}
-      length: 329.4769
+      position: {x: 225.8075, y: 341.46375, z: 1}
+      rotation: {x: 0, y: 0, z: 0.86706626, w: -0.4981929}
+      length: 338.047
       parentId: -1
     spriteOutline: []
     vertices:
@@ -1435,7 +1435,7 @@ ScriptedImporter:
     - {x: 0, y: 30}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -142, y: -142}
+    uvTransform: {x: -84, y: -628}
   - name: Cabeca
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1444,20 +1444,20 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1655
+      y: 1652
       width: 328
       height: 338
     spriteID: f3626aa11a662c44194ec424dacece05
     internalID: 0
     spriteBone:
     - name: Cabeca
-      position: {x: 89.6616, y: 0.0000029787361, z: 1}
-      rotation: {x: 0, y: 0, z: -0.0013249206, w: 0.9999991}
+      position: {x: 89.6614, y: 0.00005976394, z: 1}
+      rotation: {x: 0, y: 0, z: -0.0013244556, w: 0.99999917}
       length: 268.5366
       parentId: 1
     - name: Pescoco
       position: {x: 142.8717, y: -64.700806, z: 0}
-      rotation: {x: 0, y: 0, z: 0.67894804, w: 0.7341864}
+      rotation: {x: 0, y: 0, z: 0.67894775, w: 0.7341867}
       length: 89.66139
       parentId: -1
     spriteOutline: []
@@ -1938,7 +1938,7 @@ ScriptedImporter:
     - {x: 42, y: 15}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -785, y: 51}
+    uvTransform: {x: -785, y: 48}
   - name: Lenco
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1946,32 +1946,32 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 728
-      y: 246
+      x: 732
+      y: 4
       width: 335
       height: 264
     spriteID: 000bf7d3017f8cd45922c365ccbbafee
     internalID: 0
     spriteBone:
     - name: Coluna
-      position: {x: 210.68518, y: -262.77356, z: 0}
+      position: {x: 235.68518, y: -256.77356, z: 0}
       rotation: {x: 0, y: 0, z: 0.7588231, w: 0.65129673}
       length: 447.24384
       parentId: -1
     - name: Pescoco
-      position: {x: 447.2438, y: 0.00007151597, z: 0}
-      rotation: {x: 0, y: 0, z: -0.11492095, w: 0.99337465}
-      length: 89.661415
+      position: {x: 447.24384, y: 0.00010543101, z: 0}
+      rotation: {x: 0, y: 0, z: -0.11492138, w: 0.99337465}
+      length: 89.66141
       parentId: 0
     - name: BracoD
-      position: {x: 428.5297, y: 146.14581, z: 1}
-      rotation: {x: 0, y: 0, z: 0.95025516, w: 0.3114726}
-      length: 329.47693
+      position: {x: 419.88974, y: 183.33156, z: 1}
+      rotation: {x: 0, y: 0, z: 0.9427577, w: 0.3334785}
+      length: 338.04703
       parentId: 0
     - name: BracoE
-      position: {x: 380.64877, y: -173.76839, z: -3}
-      rotation: {x: 0, y: 0, z: -0.99375904, w: 0.111548744}
-      length: 363.80627
+      position: {x: 377.77948, y: -175.95068, z: -3}
+      rotation: {x: 0, y: 0, z: -0.99213356, w: 0.12518442}
+      length: 363.11148
       parentId: 0
     spriteOutline: []
     vertices:
@@ -2372,7 +2372,7 @@ ScriptedImporter:
     - {x: 0, y: 31}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -61, y: -1114}
+    uvTransform: {x: -32, y: -1350}
   - name: Pescoco
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2380,8 +2380,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 441
-      y: 1845
+      x: 445
+      y: 1842
       width: 146
       height: 129
     spriteID: 96fc68d84fbecbb428f0470eee77b6c7
@@ -2389,18 +2389,18 @@ ScriptedImporter:
     spriteBone:
     - name: Pescoco
       position: {x: 59.871704, y: -8.700806, z: 0}
-      rotation: {x: 0, y: 0, z: 0.67894804, w: 0.7341864}
+      rotation: {x: 0, y: 0, z: 0.67894775, w: 0.7341867}
       length: 89.66139
       parentId: -1
     - name: Cabeca
-      position: {x: 89.661415, y: 0.000018677707, z: 1}
-      rotation: {x: 0, y: 0, z: -0.0013249575, w: 0.9999991}
+      position: {x: 89.66147, y: 0.00005104676, z: 1}
+      rotation: {x: 0, y: 0, z: -0.0013244556, w: 0.99999917}
       length: 268.5366
       parentId: 0
     - name: BracoD
-      position: {x: -81.746765, y: -49.35791, z: 1}
-      rotation: {x: 0, y: 0, z: 0.8552507, w: -0.5182145}
-      length: 329.4769
+      position: {x: -117.192505, y: -63.536255, z: 1}
+      rotation: {x: 0, y: 0, z: 0.86706626, w: -0.4981929}
+      length: 338.047
       parentId: -1
     spriteOutline: []
     vertices:
@@ -2747,7 +2747,7 @@ ScriptedImporter:
     - {x: 0, y: 27}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -431, y: 297}
+    uvTransform: {x: -427, y: 294}
   - name: Torax
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2763,29 +2763,29 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: ColunaBaixo
-      position: {x: 258.68518, y: -105.41876, z: 0}
+      position: {x: 262.68518, y: -105.41876, z: 0}
       rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
       length: 158.64519
       parentId: -1
     - name: Coluna
-      position: {x: 158.64519, y: -0.000006024986, z: 0}
+      position: {x: 158.64517, y: -0.0000055481487, z: 0}
       rotation: {x: 0, y: 0, z: 0.07603266, w: 0.99710536}
       length: 447.2437
       parentId: 0
     - name: Pescoco
-      position: {x: 447.24368, y: 0.000038221646, z: 0}
-      rotation: {x: 0, y: 0, z: -0.11492099, w: 0.99337465}
+      position: {x: 447.2437, y: 0.000021770766, z: 0}
+      rotation: {x: 0, y: 0, z: -0.11492141, w: 0.99337465}
       length: 89.66139
       parentId: 1
     - name: BracoD
-      position: {x: 428.5296, y: 146.14575, z: 1}
-      rotation: {x: 0, y: 0, z: 0.95025516, w: 0.31147262}
-      length: 329.47684
+      position: {x: 419.88968, y: 183.33144, z: 1}
+      rotation: {x: 0, y: 0, z: 0.94275767, w: 0.33347854}
+      length: 338.04703
       parentId: 1
     - name: BracoE
-      position: {x: 380.64862, y: -173.76836, z: -3}
-      rotation: {x: 0, y: 0, z: -0.99375904, w: 0.11154871}
-      length: 363.80624
+      position: {x: 377.77933, y: -175.95071, z: -3}
+      rotation: {x: 0, y: 0, z: -0.99213356, w: 0.12518439}
+      length: 363.11136
       parentId: 1
     spriteOutline: []
     vertices:
@@ -3219,7 +3219,7 @@ ScriptedImporter:
     - {x: 0, y: 34}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -737, y: -1040}
+    uvTransform: {x: -733, y: -1040}
   - name: CanelaD
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3228,16 +3228,16 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 559
+      y: 556
       width: 414
       height: 530
     spriteID: d61ce34428d6fd94c82718fc0d2aa28b
     internalID: 0
     spriteBone:
     - name: CanelaD
-      position: {x: 435.43997, y: -0.0001254837, z: 2}
+      position: {x: 435.43988, y: -0.0001994316, z: 2}
       rotation: {x: 0, y: 0, z: -0.032366384, w: 0.9994761}
-      length: 504.97733
+      length: 504.97742
       parentId: 1
     - name: PernaD
       position: {x: 386.92175, y: 897.3274, z: 1}
@@ -3861,7 +3861,7 @@ ScriptedImporter:
     - {x: 35, y: 55}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -503, y: 449}
+    uvTransform: {x: -503, y: 446}
   - name: CoxaD
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3870,16 +3870,16 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1097
+      y: 1094
       width: 262
       height: 550
     spriteID: 2d07d98777f70d04fa5be8111cefbb1a
     internalID: 0
     spriteBone:
     - name: CanelaD
-      position: {x: 435.43985, y: -0.00025837065, z: 2}
+      position: {x: 435.44006, y: -0.0002441379, z: 2}
       rotation: {x: 0, y: 0, z: -0.03236637, w: 0.9994761}
-      length: 504.97733
+      length: 504.97742
       parentId: 1
     - name: PernaD
       position: {x: 68.746124, y: 105.76341, z: 1}
@@ -3892,7 +3892,7 @@ ScriptedImporter:
       length: 158.64519
       parentId: -1
     - name: Coluna
-      position: {x: 158.64516, y: -0.000016992193, z: 0}
+      position: {x: 158.64516, y: -0.000016634567, z: 0}
       rotation: {x: 0, y: 0, z: 0.07603266, w: 0.99710536}
       length: 447.2437
       parentId: 2
@@ -4344,7 +4344,7 @@ ScriptedImporter:
     - {x: 0, y: 30}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -723, y: 602}
+    uvTransform: {x: -723, y: 599}
   - name: PeD
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4352,22 +4352,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 728
-      y: 1138
+      x: 1075
+      y: 246
       width: 348
       height: 133
     spriteID: 32d0b24f7462c4d4186c337b2fd0d8a1
     internalID: 0
     spriteBone:
     - name: PeD
-      position: {x: 504.97723, y: 0.00041036864, z: 1}
+      position: {x: 504.9773, y: -0.00004497142, z: 1}
       rotation: {x: 0, y: 0, z: 0.7367077, w: 0.6762115}
       length: 200.55829
       parentId: 1
     - name: CanelaD
-      position: {x: 185.26074, y: 557.6975, z: 2}
+      position: {x: 185.26074, y: 557.69745, z: 2}
       rotation: {x: 0, y: 0, z: 0.7600399, w: -0.6498765}
-      length: 504.97733
+      length: 504.97742
       parentId: -1
     spriteOutline: []
     vertices:
@@ -4874,7 +4874,7 @@ ScriptedImporter:
     - {x: 0, y: 27}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 59, y: 1122}
+    uvTransform: {x: 406, y: 230}
   - name: Cintura
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4882,7 +4882,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 728
+      x: 1075
       y: 4
       width: 374
       height: 234
@@ -4895,17 +4895,17 @@ ScriptedImporter:
       length: 158.64519
       parentId: -1
     - name: PernaE
-      position: {x: 63.458054, y: -89.89894, z: -2}
-      rotation: {x: 0, y: 0, z: -0.9950736, w: 0.09913899}
-      length: 428.83905
+      position: {x: 63.458054, y: -89.8989, z: -2}
+      rotation: {x: 0, y: 0, z: -0.9950737, w: 0.099139035}
+      length: 428.839
       parentId: 0
     - name: Coluna
-      position: {x: 158.64519, y: -0.000036900186, z: 0}
+      position: {x: 158.64519, y: 0.000004465436, z: 0}
       rotation: {x: 0, y: 0, z: 0.07603266, w: 0.99710536}
       length: 447.2437
       parentId: 0
     - name: PernaD
-      position: {x: 68.74622, y: 105.76339, z: 1}
+      position: {x: 68.74622, y: 105.76343, z: 1}
       rotation: {x: 0, y: 0, z: 0.9989603, w: 0.045588475}
       length: 435.43997
       parentId: 0
@@ -5307,7 +5307,7 @@ ScriptedImporter:
     - {x: 0, y: 30}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -73, y: -885}
+    uvTransform: {x: 274, y: -885}
   - name: CanelaE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5315,22 +5315,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 441
-      y: 515
+      x: 445
+      y: 936
       width: 230
       height: 474
     spriteID: 8cbedc95368cacf47a0e403e3fe7a1b9
     internalID: 0
     spriteBone:
     - name: CanelaE
-      position: {x: 428.839, y: 0.00014170028, z: -1}
-      rotation: {x: 0, y: 0, z: -0.099126466, w: 0.99507487}
-      length: 480.5765
+      position: {x: 428.83917, y: 0.0001170274, z: -1}
+      rotation: {x: 0, y: 0, z: -0.09912666, w: 0.9950748}
+      length: 480.57675
       parentId: 1
     - name: PernaE
       position: {x: 41.584106, y: 876.0393, z: -2}
-      rotation: {x: 0, y: 0, z: -0.63352144, w: 0.7737251}
-      length: 428.8392
+      rotation: {x: 0, y: 0, z: -0.63352144, w: 0.77372515}
+      length: 428.83923
       parentId: -1
     spriteOutline: []
     vertices:
@@ -5824,7 +5824,7 @@ ScriptedImporter:
     - {x: 0, y: 34}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -607, y: 389}
+    uvTransform: {x: -603, y: 810}
   - name: CoxaE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5832,7 +5832,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 441
+      x: 445
       y: 4
       width: 279
       height: 503
@@ -5840,14 +5840,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: CanelaE
-      position: {x: 428.83896, y: 0.0000012662249, z: -1}
-      rotation: {x: 0, y: 0, z: -0.09912649, w: 0.99507487}
-      length: 480.57645
+      position: {x: 428.83905, y: 0.000046535464, z: -1}
+      rotation: {x: 0, y: 0, z: -0.09912669, w: 0.9950748}
+      length: 480.57654
       parentId: 1
     - name: PernaE
       position: {x: 63.458065, y: -89.898926, z: -2}
-      rotation: {x: 0, y: 0, z: -0.9950736, w: 0.09913899}
-      length: 428.83905
+      rotation: {x: 0, y: 0, z: -0.9950737, w: 0.099139035}
+      length: 428.839
       parentId: 2
     - name: ColunaBaixo
       position: {x: 3.6851807, y: 440.58124, z: 0}
@@ -6374,7 +6374,7 @@ ScriptedImporter:
     - {x: 28, y: 32}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -555, y: -494}
+    uvTransform: {x: -551, y: -494}
   - name: PeE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -6382,22 +6382,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 728
-      y: 1279
+      x: 1075
+      y: 387
       width: 339
       height: 117
     spriteID: ffbb466e2d3e23942b7691138ba3f379
     internalID: 0
     spriteBone:
     - name: PeE
-      position: {x: 480.5763, y: 0.00021099008, z: -2}
-      rotation: {x: 0, y: 0, z: 0.68296796, w: 0.73044837}
-      length: 206.69214
+      position: {x: 480.57654, y: 0.00034436907, z: -2}
+      rotation: {x: 0, y: 0, z: 0.68296814, w: 0.7304482}
+      length: 206.69217
       parentId: 1
     - name: CanelaE
-      position: {x: 87.1947, y: 533.6299, z: -1}
-      rotation: {x: 0, y: 0, z: -0.70709795, w: 0.7071157}
-      length: 480.5765
+      position: {x: 87.1947, y: 533.6298, z: -1}
+      rotation: {x: 0, y: 0, z: -0.70709807, w: 0.7071156}
+      length: 480.5767
       parentId: -1
     spriteOutline: []
     vertices:
@@ -6865,7 +6865,7 @@ ScriptedImporter:
     - {x: 0, y: 28}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -359, y: 1231}
+    uvTransform: {x: -12, y: 339}
   - name: MaoE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -6873,22 +6873,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 911
-      y: 792
+      x: 732
+      y: 903
       width: 171
       height: 235
     spriteID: 64d202d9ea1bc2945ab434e378d6617a
     internalID: 0
     spriteBone:
     - name: MaoE
-      position: {x: 277.6645, y: 0.00020726149, z: -1}
-      rotation: {x: 0, y: 0, z: -0.15892223, w: 0.9872911}
-      length: 157.58467
+      position: {x: 276.70813, y: 0.000041783365, z: -1}
+      rotation: {x: 0, y: 0, z: -0.1274026, w: 0.9918511}
+      length: 162.29198
       parentId: 1
     - name: AntebracoE
-      position: {x: -126.756836, y: 359.4005, z: -2}
-      rotation: {x: 0, y: 0, z: -0.38435334, w: 0.92318606}
-      length: 277.66434
+      position: {x: -141.19421, y: 367.3285, z: -2}
+      rotation: {x: 0, y: 0, z: -0.38268346, w: 0.92387956}
+      length: 276.70844
       parentId: -1
     spriteOutline: []
     vertices:
@@ -7285,7 +7285,7 @@ ScriptedImporter:
     - {x: 0, y: 27}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -463, y: -10}
+    uvTransform: {x: -668, y: 107}
   - name: AntebracoE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -7293,22 +7293,22 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 728
-      y: 511
+      x: 732
+      y: 276
       width: 268
       height: 273
     spriteID: 639948a7b35d3274da03e317c3b5a7e8
     internalID: 0
     spriteBone:
     - name: AntebracoE
-      position: {x: 363.8063, y: 0.000033972112, z: -2}
-      rotation: {x: 0, y: 0, z: 0.20161203, w: 0.9794655}
-      length: 277.66434
+      position: {x: 363.11148, y: 0.00006133001, z: -2}
+      rotation: {x: 0, y: 0, z: 0.18991865, w: 0.9817999}
+      length: 276.70837
       parentId: 1
     - name: BracoE
-      position: {x: -61.271484, y: 522.8218, z: -3}
-      rotation: {x: 0, y: 0, z: -0.56258625, w: 0.8267386}
-      length: 363.8064
+      position: {x: -84.67932, y: 526.3165, z: -3}
+      rotation: {x: 0, y: 0, z: -0.55118054, w: 0.8343861}
+      length: 363.11148
       parentId: -1
     spriteOutline: []
     vertices:
@@ -7655,7 +7655,7 @@ ScriptedImporter:
     - {x: 0, y: 27}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -447, y: -466}
+    uvTransform: {x: -469, y: -695}
   - name: BracoE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -7663,26 +7663,26 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 441
-      y: 1421
+      x: 445
+      y: 1418
       width: 237
       height: 416
     spriteID: 4017b3ddce693e1409db6ef2786ecd2c
     internalID: 0
     spriteBone:
     - name: BracoE
-      position: {x: 69.728516, y: 351.82178, z: -3}
-      rotation: {x: 0, y: 0, z: -0.56258625, w: 0.8267386}
-      length: 363.8064
+      position: {x: 46.32068, y: 355.31653, z: -3}
+      rotation: {x: 0, y: 0, z: -0.55118054, w: 0.8343861}
+      length: 363.11148
       parentId: -1
     - name: AntebracoE
-      position: {x: 363.80643, y: 0.00014058978, z: -2}
-      rotation: {x: 0, y: 0, z: 0.20161203, w: 0.9794655}
-      length: 277.66434
+      position: {x: 363.1115, y: 0.00009526708, z: -2}
+      rotation: {x: 0, y: 0, z: 0.18991865, w: 0.98179984}
+      length: 276.70837
       parentId: 0
     - name: Pescoco
-      position: {x: -112.128296, y: 391.2992, z: 0}
-      rotation: {x: 0, y: 0, z: 0.67894804, w: 0.7341864}
+      position: {x: -138.1283, y: 397.2992, z: 0}
+      rotation: {x: 0, y: 0, z: 0.67894775, w: 0.7341867}
       length: 89.66139
       parentId: -1
     spriteOutline: []
@@ -8122,7 +8122,7 @@ ScriptedImporter:
     - {x: 0, y: 29}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -603, y: 273}
+    uvTransform: {x: -625, y: 276}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -8155,7 +8155,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: ba543aee4ce2f4f4382c4177cb996e2f
     layerID: 44
-    mosaicPosition: {x: 274, y: 1097}
+    mosaicPosition: {x: 915, y: 557}
   - name: AntebracoD
     spriteName: 
     isGroup: 1
@@ -8169,7 +8169,7 @@ ScriptedImporter:
     parentIndex: 2
     spriteID: 25f5f23cb5515a34184723b8585b554d
     layerID: 43
-    mosaicPosition: {x: 728, y: 792}
+    mosaicPosition: {x: 732, y: 557}
   - name: "Bra\xE7oD"
     spriteName: 
     isGroup: 1
@@ -8183,7 +8183,7 @@ ScriptedImporter:
     parentIndex: 4
     spriteID: 87d87edc32ffafc40a92181b047e0cc7
     layerID: 46
-    mosaicPosition: {x: 441, y: 997}
+    mosaicPosition: {x: 445, y: 515}
   - name: "Cabe\xE7a"
     spriteName: 
     isGroup: 1
@@ -8197,7 +8197,7 @@ ScriptedImporter:
     parentIndex: 6
     spriteID: f3626aa11a662c44194ec424dacece05
     layerID: 49
-    mosaicPosition: {x: 4, y: 1655}
+    mosaicPosition: {x: 4, y: 1652}
   - name: Lenco
     spriteName: 
     isGroup: 1
@@ -8211,7 +8211,7 @@ ScriptedImporter:
     parentIndex: 8
     spriteID: 000bf7d3017f8cd45922c365ccbbafee
     layerID: 45
-    mosaicPosition: {x: 728, y: 246}
+    mosaicPosition: {x: 732, y: 4}
   - name: "Pesco\xE7o"
     spriteName: 
     isGroup: 1
@@ -8225,7 +8225,7 @@ ScriptedImporter:
     parentIndex: 10
     spriteID: 96fc68d84fbecbb428f0470eee77b6c7
     layerID: 48
-    mosaicPosition: {x: 441, y: 1845}
+    mosaicPosition: {x: 445, y: 1842}
   - name: Torax
     spriteName: 
     isGroup: 1
@@ -8253,7 +8253,7 @@ ScriptedImporter:
     parentIndex: 14
     spriteID: d61ce34428d6fd94c82718fc0d2aa28b
     layerID: 40
-    mosaicPosition: {x: 4, y: 559}
+    mosaicPosition: {x: 4, y: 556}
   - name: PernaD
     spriteName: 
     isGroup: 1
@@ -8267,7 +8267,7 @@ ScriptedImporter:
     parentIndex: 16
     spriteID: 2d07d98777f70d04fa5be8111cefbb1a
     layerID: 39
-    mosaicPosition: {x: 4, y: 1097}
+    mosaicPosition: {x: 4, y: 1094}
   - name: PeD
     spriteName: 
     isGroup: 1
@@ -8281,7 +8281,7 @@ ScriptedImporter:
     parentIndex: 18
     spriteID: 32d0b24f7462c4d4186c337b2fd0d8a1
     layerID: 41
-    mosaicPosition: {x: 728, y: 1138}
+    mosaicPosition: {x: 1075, y: 246}
   - name: Cintura
     spriteName: 
     isGroup: 1
@@ -8295,7 +8295,7 @@ ScriptedImporter:
     parentIndex: 20
     spriteID: 4635314bfcc97a44ab5d138f4f343bb9
     layerID: 38
-    mosaicPosition: {x: 728, y: 4}
+    mosaicPosition: {x: 1075, y: 4}
   - name: CanelaE
     spriteName: 
     isGroup: 1
@@ -8309,7 +8309,7 @@ ScriptedImporter:
     parentIndex: 22
     spriteID: 8cbedc95368cacf47a0e403e3fe7a1b9
     layerID: 53
-    mosaicPosition: {x: 441, y: 515}
+    mosaicPosition: {x: 445, y: 936}
   - name: PernaE
     spriteName: 
     isGroup: 1
@@ -8323,7 +8323,7 @@ ScriptedImporter:
     parentIndex: 24
     spriteID: 5d99d739584509c4dbd2b4e2a209cbc2
     layerID: 52
-    mosaicPosition: {x: 441, y: 4}
+    mosaicPosition: {x: 445, y: 4}
   - name: PeE
     spriteName: 
     isGroup: 1
@@ -8337,7 +8337,7 @@ ScriptedImporter:
     parentIndex: 26
     spriteID: ffbb466e2d3e23942b7691138ba3f379
     layerID: 42
-    mosaicPosition: {x: 728, y: 1279}
+    mosaicPosition: {x: 1075, y: 387}
   - name: MaoE
     spriteName: 
     isGroup: 1
@@ -8351,7 +8351,7 @@ ScriptedImporter:
     parentIndex: 28
     spriteID: 64d202d9ea1bc2945ab434e378d6617a
     layerID: 50
-    mosaicPosition: {x: 911, y: 792}
+    mosaicPosition: {x: 732, y: 903}
   - name: AntebracoE
     spriteName: 
     isGroup: 1
@@ -8365,7 +8365,7 @@ ScriptedImporter:
     parentIndex: 30
     spriteID: 639948a7b35d3274da03e317c3b5a7e8
     layerID: 47
-    mosaicPosition: {x: 728, y: 511}
+    mosaicPosition: {x: 732, y: 276}
   - name: "Bra\xE7oE"
     spriteName: 
     isGroup: 1
@@ -8379,7 +8379,7 @@ ScriptedImporter:
     parentIndex: 32
     spriteID: 4017b3ddce693e1409db6ef2786ecd2c
     layerID: 51
-    mosaicPosition: {x: 441, y: 1421}
+    mosaicPosition: {x: 445, y: 1418}
   characterData:
     bones:
     - name: ColunaBaixo
@@ -8394,43 +8394,43 @@ ScriptedImporter:
       parentId: 0
     - name: Pescoco
       position: {x: 447.2437, y: 0.00001946707, z: 0}
-      rotation: {x: 0, y: 0, z: -0.11492101, w: 0.99337465}
+      rotation: {x: 0, y: 0, z: -0.114921406, w: 0.9933746}
       length: 89.66139
       parentId: 1
     - name: Cabeca
-      position: {x: 89.66138, y: 0.00000042650208, z: 1}
-      rotation: {x: 0, y: 0, z: -0.0013249512, w: 0.99999917}
+      position: {x: 89.66143, y: 0.000054049327, z: 1}
+      rotation: {x: 0, y: 0, z: -0.0013244697, w: 0.99999917}
       length: 268.5366
       parentId: 2
     - name: BracoD
-      position: {x: 428.52963, y: 146.14574, z: 1}
-      rotation: {x: 0, y: -0, z: 0.95025516, w: 0.31147268}
-      length: 329.47684
+      position: {x: 419.8897, y: 183.33142, z: 1}
+      rotation: {x: 0, y: -0, z: 0.9427577, w: 0.33347857}
+      length: 338.0469
       parentId: 1
     - name: AntebracoD
-      position: {x: 329.47678, y: 0.00004628398, z: 2}
-      rotation: {x: 0, y: 0, z: 0.29919937, w: 0.9541906}
-      length: 314.51285
+      position: {x: 338.04697, y: -0.000064113614, z: 2}
+      rotation: {x: 0, y: 0, z: 0.3213029, w: 0.9469765}
+      length: 314.51263
       parentId: 4
     - name: MaoD
-      position: {x: 314.51285, y: -0.000012939512, z: 3}
-      rotation: {x: 0, y: 0, z: 0.012317207, w: 0.9999242}
-      length: 186.43852
+      position: {x: 314.5126, y: 0.000008475859, z: 3}
+      rotation: {x: 0, y: 0, z: -0.0006457925, w: 0.9999999}
+      length: 182.19531
       parentId: 5
     - name: BracoE
-      position: {x: 380.64865, y: -173.76839, z: -3}
-      rotation: {x: 0, y: -0, z: -0.993759, w: 0.11154868}
-      length: 363.80637
+      position: {x: 377.77933, y: -175.95071, z: -3}
+      rotation: {x: 0, y: -0, z: -0.9921335, w: 0.12518436}
+      length: 363.1115
       parentId: 1
     - name: AntebracoE
-      position: {x: 363.8064, y: 0.000005368969, z: -2}
-      rotation: {x: 0, y: 0, z: 0.20161206, w: 0.9794655}
-      length: 277.66434
+      position: {x: 363.11154, y: -0.000018357114, z: -2}
+      rotation: {x: 0, y: 0, z: 0.1899187, w: 0.9817999}
+      length: 276.7084
       parentId: 7
     - name: MaoE
-      position: {x: 277.66437, y: 0.000049567774, z: -1}
-      rotation: {x: 0, y: 0, z: -0.15892227, w: 0.98729116}
-      length: 157.58464
+      position: {x: 276.7082, y: 0.00011457944, z: -1}
+      rotation: {x: 0, y: 0, z: -0.12740265, w: 0.99185115}
+      length: 162.29198
       parentId: 8
     - name: PernaD
       position: {x: 68.74623, y: 105.76341, z: 1}
@@ -8440,32 +8440,32 @@ ScriptedImporter:
     - name: CanelaD
       position: {x: 435.43994, y: -0.00025279794, z: 2}
       rotation: {x: 0, y: 0, z: -0.03236636, w: 0.9994761}
-      length: 504.97726
+      length: 504.97736
       parentId: 10
     - name: PeD
-      position: {x: 504.9772, y: 0.00014327983, z: 1}
+      position: {x: 504.9773, y: -0.000029308398, z: 1}
       rotation: {x: 0, y: 0, z: 0.73670757, w: 0.67621154}
       length: 200.55826
       parentId: 11
     - name: PernaE
       position: {x: 63.458065, y: -89.89892, z: -2}
-      rotation: {x: 0, y: -0, z: -0.9950736, w: 0.099139005}
-      length: 428.83908
+      rotation: {x: 0, y: -0, z: -0.9950737, w: 0.099139005}
+      length: 428.83902
       parentId: 0
     - name: CanelaE
-      position: {x: 428.83902, y: 0.00010868713, z: -1}
-      rotation: {x: 0, y: 0, z: -0.09912652, w: 0.99507487}
-      length: 480.57645
+      position: {x: 428.83902, y: 0.000017500808, z: -1}
+      rotation: {x: 0, y: 0, z: -0.09912667, w: 0.9950748}
+      length: 480.5765
       parentId: 13
     - name: PeE
-      position: {x: 480.57645, y: 0.00006836599, z: -2}
-      rotation: {x: 0, y: 0, z: 0.68296796, w: 0.73044837}
+      position: {x: 480.57645, y: 0.00024269702, z: -2}
+      rotation: {x: 0, y: 0, z: 0.68296814, w: 0.7304482}
       length: 206.6921
       parentId: 14
     parts:
     - spritePosition:
-        x: 632
-        y: 671
+        x: 572
+        y: 682
         width: 140
         height: 245
       spriteId: ba543aee4ce2f4f4382c4177cb996e2f
@@ -8473,8 +8473,8 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 564
-        y: 871
+        x: 504
+        y: 882
         width: 175
         height: 338
       spriteId: 25f5f23cb5515a34184723b8585b554d
@@ -8482,8 +8482,8 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 583
-        y: 1139
+        x: 529
+        y: 1143
         width: 277
         height: 413
       spriteId: 87d87edc32ffafc40a92181b047e0cc7
@@ -8500,8 +8500,8 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 789
-        y: 1360
+        x: 764
+        y: 1354
         width: 335
         height: 264
       spriteId: 000bf7d3017f8cd45922c365ccbbafee
@@ -8518,7 +8518,7 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 741
+        x: 737
         y: 1044
         width: 433
         height: 544
@@ -8590,8 +8590,8 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 1374
-        y: 802
+        x: 1400
+        y: 796
         width: 171
         height: 235
       spriteId: 64d202d9ea1bc2945ab434e378d6617a
@@ -8599,8 +8599,8 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 1175
-        y: 977
+        x: 1201
+        y: 971
         width: 268
         height: 273
       spriteId: 639948a7b35d3274da03e317c3b5a7e8
@@ -8608,8 +8608,8 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
-        x: 1044
-        y: 1148
+        x: 1070
+        y: 1142
         width: 237
         height: 416
       spriteId: 4017b3ddce693e1409db6ef2786ecd2c
