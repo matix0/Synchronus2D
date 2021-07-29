@@ -17,6 +17,11 @@ public class World_Hub : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey("a"))
+        {
+            transform.Rotate(Vector3.down, -rotatespeed);
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -28,7 +33,7 @@ public class World_Hub : MonoBehaviour
             }
         }
 
-        transform.Rotate(new Vector3(0, orbitspeed, 0));
+        transform.Rotate(new Vector3(0, -orbitspeed, 0));
 
         if (Input.touchCount > 0)
         {
