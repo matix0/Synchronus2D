@@ -259,7 +259,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -301,7 +301,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715ac355488f9ae4eb3e7c27a65dd3b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomModifierSpeed: 0.1
+  zoomModifierSpeed: 0.04
+  xmenorValor: -7
+  xmaiorValor: 7
+  ymenorValor: -8
+  ymaiorValor: 6
+  pickedObject: 0
+  trigger: 0
 --- !u!1 &910369821
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f88408f958b84124a907e0eaade80915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraTrigger: {fileID: 318537470}
 --- !u!61 &1697698107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -691,18 +698,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.39521086, y: 0.3022344}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 7.29, y: 4.37}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.882288, y: 4.301328}
   m_EdgeRadius: 0
 --- !u!212 &1697698108
 SpriteRenderer:
@@ -744,7 +751,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 880bddab19099f044a93ea038a80ee45, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa85dcbf2c8e91047b6b2d043040205a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -763,8 +770,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697698105}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.77, y: -3.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.27, y: -3.839, z: 0}
+  m_LocalScale: {x: 0.32105336, y: 0.32105336, z: 0.32105336}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4

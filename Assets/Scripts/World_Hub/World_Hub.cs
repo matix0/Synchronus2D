@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class World_Hub : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
@@ -14,10 +13,10 @@ public class World_Hub : MonoBehaviour
     public float orbitspeed;
     public float rotatespeed;
     private float startingPosition;
-    private Vector3 initialPosition;
 
     void Update()
     {
+        Vector3 mousePosition = Input.mousePosition;
 
         if (Input.GetMouseButtonDown(0))
         {

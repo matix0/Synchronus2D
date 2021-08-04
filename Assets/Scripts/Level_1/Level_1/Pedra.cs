@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class Pedra : MonoBehaviour
 {
+    public ZoomInZoomOut cameraTrigger;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetMouseButtonUp(0))
+        {
+            cameraTrigger.trigger = false;
+        }
     }
 
     void OnMouseDrag()
@@ -23,5 +20,15 @@ public class Pedra : MonoBehaviour
         Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
         transform.position = objPosition;
+
+        cameraTrigger.trigger = true;
+
+        if (gameObject.GetComponent<Rigidbody2D>() == null)
+        {
+            Destroy(GetComponent<BoxCollider2D>());
+
+            Rigidbody2D gameObjectsRigidBody = gameObject.AddComponent<Rigidbody2D>();
+            GetComponent<Rigidbody2D>().mass = 5;
+        }
     }
 }
