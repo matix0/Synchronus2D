@@ -84,13 +84,6 @@ public class ZoomInZoomOut : MonoBehaviour
 
 		mainCamera.orthographicSize = Mathf.Clamp(mainCamera.orthographicSize, 2f, 8f);
 
-		if (Input.mouseScrollDelta.y == 1)
-		{
-			mainCamera.orthographicSize -= 1;
-		}
-		else if (Input.mouseScrollDelta.y == -1)
-        {
-			mainCamera.orthographicSize += 1;
-		}
+		Debug.Log(Input.mouseScrollDelta);
 	}
 }
