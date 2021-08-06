@@ -25,10 +25,8 @@ public class Pedra : MonoBehaviour
 
         if (gameObject.GetComponent<Rigidbody2D>() == null)
         {
-            Destroy(GetComponent<BoxCollider2D>());
-
             Rigidbody2D gameObjectsRigidBody = gameObject.AddComponent<Rigidbody2D>();
-            GetComponent<Rigidbody2D>().mass = 5;
+            GetComponent<Rigidbody2D>().mass = 100;
         }
     }
 }
