@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class BebeMove : MonoBehaviour
 {
-    public ZoomInZoomOut cameraTrigger;
+  
+
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
+
     private void OnMouseDrag()
     {
         Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1);
@@ -23,6 +25,14 @@ public class BebeMove : MonoBehaviour
 
         transform.position = objPosition;
 
-        cameraTrigger.trigger = true;
+
+        if (gameObject.GetComponent<Rigidbody2D>() == null)
+        {
+            Rigidbody2D gameObjectsRigidBody = gameObject.AddComponent<Rigidbody2D>();
+            GetComponent<Rigidbody2D>().mass = 100;
+        }
     }
+
+
+
 }
