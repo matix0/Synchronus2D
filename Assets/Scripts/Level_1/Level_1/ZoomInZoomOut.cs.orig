@@ -12,7 +12,7 @@ public class ZoomInZoomOut : MonoBehaviour
 	Vector2 firstTouchPrevPos, secondTouchPrevPos;
 
 	[SerializeField]
-	float zoomModifierSpeed = 0.05f;
+	float zoomModifierSpeed = 0.1f;
 
 	public float xmenorValor, xmaiorValor, ymenorValor, ymaiorValor;
 
@@ -84,13 +84,6 @@ public class ZoomInZoomOut : MonoBehaviour
 
 		mainCamera.orthographicSize = Mathf.Clamp(mainCamera.orthographicSize, 2f, 8f);
 
-		if (Input.mouseScrollDelta.y == 1)
-		{
-			mainCamera.orthographicSize -= 1;
-		}
-		else if (Input.mouseScrollDelta.y == -1)
-		{
-			mainCamera.orthographicSize += 1;
-		}
+		Debug.Log(Input.mouseScrollDelta);
 	}
 }

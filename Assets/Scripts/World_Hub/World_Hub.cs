@@ -18,7 +18,7 @@ public class World_Hub : MonoBehaviour
     {
         Vector3 mousePosition = Input.mousePosition;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hitInfo;
