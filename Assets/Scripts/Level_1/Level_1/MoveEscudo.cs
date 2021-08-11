@@ -8,6 +8,20 @@ public class MoveEscudo : MonoBehaviour
     public Sprite escudoAchado;
     public SpriteRenderer spriteRenderer;
 
+    void Update()
+    {
+        if (Input.GetMouseButtonUp(0))
+        {
+            AcompanhaCamera.trigger = false;
+        }
+
+        if (RemoverMatinho.AchouMatinho == true)
+        {
+            GetComponent<CircleCollider2D>().enabled = true;
+            GetComponent<CircleCollider2D>().radius = 3;
+        }    
+    }
+
     void OnMouseDrag()
     {
         if (RemoverMatinho.AchouMatinho == true)
@@ -23,9 +37,5 @@ public class MoveEscudo : MonoBehaviour
         AcompanhaCamera.trigger = true;
 
         transform.position = objPosition;
-    }
-    void OnMouseUp()
-    {
-        AcompanhaCamera.trigger = false;
     }
 }

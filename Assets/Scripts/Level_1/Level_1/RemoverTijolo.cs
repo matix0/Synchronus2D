@@ -12,7 +12,7 @@ public class RemoverTijolo : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    private void OnMouseDown()
+    private void OnMouseUp()
     {
         anim.SetTrigger("Clicou");
         AchouTijolo = true;
