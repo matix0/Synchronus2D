@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pedra
+  - Espada
+  - Escudo
   layers:
   - Default
   - TransparentFX

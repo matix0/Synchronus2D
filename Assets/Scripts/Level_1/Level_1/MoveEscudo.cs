@@ -29,6 +29,7 @@ public class MoveEscudo : MonoBehaviour
             transform.localScale = new Vector3(0.2f,0.2f,1);
             spriteRenderer.sprite = escudoAchado;
             spriteRenderer.sortingOrder = 10;
+            RemoverMatinho.AchouMatinho = false;
         }
 
         Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1);
