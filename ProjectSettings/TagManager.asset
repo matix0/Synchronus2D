@@ -5,7 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pedra
+<<<<<<< HEAD
   - Pedras
+||||||| 125cdf1
+=======
+  - Espada
+  - Escudo
+>>>>>>> ec9e9b46a1f2cd9f0e7230b01c152b656a01de9d
   layers:
   - Default
   - TransparentFX
