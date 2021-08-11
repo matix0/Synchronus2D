@@ -17,7 +17,6 @@ public class Controller : MonoBehaviour
     {
         if (progress >= 3)
         {
-
             currentCamera.orthographicSize = 6f;
             anim.enabled = true;
             anim.SetTrigger("complete");

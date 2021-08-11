@@ -16,6 +16,12 @@ public class UnderLimit : MonoBehaviour
             controller.updateProgress();
         }
 
+        if (collision.gameObject.CompareTag("Pedras"))
+        {
+            controller.progress += 1;
+            controller.updateProgress();
+        }
+
         Destroy(collision.gameObject);
     }
 }

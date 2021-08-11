@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pedra
+  - Pedras
   layers:
   - Default
   - TransparentFX

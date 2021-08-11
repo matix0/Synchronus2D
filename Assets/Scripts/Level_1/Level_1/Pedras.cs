@@ -6,7 +6,6 @@ public class Pedras : MonoBehaviour
 {
     GameObject pedra1, pedra2, pedra3;
     public GameObject particulas;
-    public Controller controller;
 
     void Start()
     {
@@ -22,8 +21,5 @@ public class Pedras : MonoBehaviour
         pedra3.GetComponent<Rigidbody2D>().simulated = true;
 
         particulas.SetActive(true);
-
-        controller.progress += 1;
-        controller.updateProgress();
     }
 }

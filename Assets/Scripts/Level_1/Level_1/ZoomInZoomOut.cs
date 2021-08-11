@@ -20,8 +20,6 @@ public class ZoomInZoomOut : MonoBehaviour
 	private Vector3 Diference;
 	private bool Drag = false;
 
-	public bool pickedObject = false;
-
 	public bool trigger = false;
 
 	void Start()
