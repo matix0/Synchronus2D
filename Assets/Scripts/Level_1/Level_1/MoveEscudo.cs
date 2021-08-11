@@ -1,26 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class MoveEspada : MonoBehaviour {
+public class MoveEscudo : MonoBehaviour
+{
+    public RemoverMatinho RemoverMatinho;
     public ZoomInZoomOut AcompanhaCamera;
-    public RemoverTijolo RemoverTijolo;
-    public Sprite espadaAchada;
+    public Sprite escudoAchado;
     public SpriteRenderer spriteRenderer;
 
     void OnMouseDrag()
     {
-        if (RemoverTijolo.AchouTijolo == true)
+        if (RemoverMatinho.AchouMatinho == true)
         {
-            transform.localScale = new Vector3(0.2f, 0.2f, 1);
-            transform.localRotation = new Quaternion(0, 0, 0.943f, 0.334f);
-            spriteRenderer.sprite = espadaAchada;
+            transform.localScale = new Vector3(0.2f,0.2f,1);
+            spriteRenderer.sprite = escudoAchado;
+            spriteRenderer.sortingOrder = 10;
         }
 
         Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1);
         Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        AcompanhaCamera.trigger = true;       
+        AcompanhaCamera.trigger = true;
+
         transform.position = objPosition;
     }
     void OnMouseUp()
