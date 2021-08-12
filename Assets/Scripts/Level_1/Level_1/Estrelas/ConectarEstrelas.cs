@@ -44,6 +44,46 @@ public class ConectarEstrelas : MonoBehaviour
                     stage++;
                 }
             }
+
+            if (stage == 1 && estrela2.clicked)
+            {
+                estrela2.inactive();
+                estrela3.active();
+
+                currentVertex = estrela2.vertex;
+
+                mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                line.SetPosition(1, new Vector3(mousePos.x, mousePos.y, transform.position.z));
+
+                if (estrela3.entered)
+                {
+                    currentVertex = estrela3.vertex;
+                    line.SetPosition(0, currentVertex);
+                    line.SetPosition(1, currentVertex);
+                    complete2.GetComponent<SpriteRenderer>().enabled = true;
+                    stage++;
+                }
+            }
+
+            if (stage == 2 && estrela3.clicked)
+            {
+                estrela3.inactive();
+                estrela4.active();
+
+                currentVertex = estrela3.vertex;
+
+                mousePos  = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                line.SetPosition(1, new Vector3(mousePos.x, mousePos.y, transform.position.z));
+
+                if (estrela4.entered)
+                {
+                    currentVertex = estrela4.vertex;
+                    line.SetPosition(0, currentVertex);
+                    line.SetPosition(1, currentVertex);
+                    complete3.GetComponent<SpriteRenderer>().enabled = true;
+                    stage++;
+                }
+            }
         }
         else 
         {
@@ -71,4 +111,3 @@ public class ConectarEstrelas : MonoBehaviour
         }
     }
 }
-
