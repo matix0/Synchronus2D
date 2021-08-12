@@ -28,6 +28,8 @@ public class AcenderTemplo : MonoBehaviour
     private Animator animEscudo;
     private Animator animCam;
 
+    private BoxCollider2D colEspada, colEscudo;
+
     [HideInInspector]
     public Camera currentCamera;
 
@@ -54,6 +56,10 @@ public class AcenderTemplo : MonoBehaviour
 
         if (espadaTransformada == true && escudoTransformado == true)
         {
+            //Ativar Animator Espada e Escudo pra Tocar o Fade
+            animEspada.enabled = true;
+            animEscudo.enabled = true;
+
             //Acender caso espada e escudo no collider
             acendeTemplo.GetComponent<SpriteRenderer>().sprite = temploLocal;
             animEspada.SetTrigger("ImpedirFaderEspada");

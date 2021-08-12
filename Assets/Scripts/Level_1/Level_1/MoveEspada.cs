@@ -7,6 +7,7 @@ public class MoveEspada : MonoBehaviour {
     public RemoverTijolo RemoverTijolo;
     public Sprite espadaAchada;
     public SpriteRenderer spriteRenderer;
+    public Camera mainCamera;
 
     void OnMouseDrag()
     {
@@ -27,5 +28,11 @@ public class MoveEspada : MonoBehaviour {
     void OnMouseUp()
     {
         AcompanhaCamera.trigger = false;
+    }
+
+    private void CamDesaproximar()
+    {
+        mainCamera.GetComponent<Animator>().SetTrigger("desaproxCam");
+        //mainCamera.GetComponent<Animator>().enabled = false;
     }
 }

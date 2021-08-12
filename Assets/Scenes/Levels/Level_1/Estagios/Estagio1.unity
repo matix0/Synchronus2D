@@ -182,7 +182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 5594748732290073216, guid: 3a7581c2770a4154ea01e8261202c69b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -226,6 +226,7 @@ MonoBehaviour:
   espadaAchada: {fileID: 5594748732290073216, guid: 3a7581c2770a4154ea01e8261202c69b,
     type: 3}
   spriteRenderer: {fileID: 537457682}
+  mainCamera: {fileID: 1271225153}
 --- !u!61 &537457685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -260,7 +261,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537457681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 8c92acdaed34b3947b0f33c002a1c703, type: 2}
   m_CullingMode: 0
@@ -330,7 +331,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 0d6b914d33d13c041ba2886c4269a974, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -735,6 +736,7 @@ GameObject:
   - component: {fileID: 1271225152}
   - component: {fileID: 1271225155}
   - component: {fileID: 1271225156}
+  - component: {fileID: 1271225157}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -846,6 +848,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1271225157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271225151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fdd7981ecf44094392ce1322cf3f504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1546042608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1164,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866409109}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 50e5db8fd4268f64c952dc9148b7c0d5, type: 2}
   m_CullingMode: 0
