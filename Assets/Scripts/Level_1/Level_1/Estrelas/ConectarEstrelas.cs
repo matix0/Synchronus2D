@@ -11,7 +11,7 @@ public class ConectarEstrelas : MonoBehaviour
 
     public GameObject complete1, complete2, complete3;
 
-    private int stage = 0;
+    private int stage = -1;
     private LineRenderer line;
     private Vector3 currentVertex, mousePos;
 
@@ -25,6 +25,12 @@ public class ConectarEstrelas : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
+            if (stage == -1 && estrela2.clicked)
+            {
+                estrela2.inactive();
+                stage++;
+            }
+
             if (stage == 0 && estrela1.clicked)
             {
                 estrela1.inactive();

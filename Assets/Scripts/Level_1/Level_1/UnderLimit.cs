@@ -6,6 +6,7 @@ public class UnderLimit : MonoBehaviour
 {
     public GameObject particulas;
     public Controller controller;
+    public BottomBar bar;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,6 +15,7 @@ public class UnderLimit : MonoBehaviour
             particulas.SetActive(true);
             controller.progress += 1;
             controller.updateProgress();
+            bar.c1Active();
         }
 
         if (collision.gameObject.CompareTag("Pedras"))
@@ -21,6 +23,7 @@ public class UnderLimit : MonoBehaviour
             controller.progress += 1;
             controller.updateProgress();
         }
+        bar.c3Active();
 
         Destroy(collision.gameObject);
     }

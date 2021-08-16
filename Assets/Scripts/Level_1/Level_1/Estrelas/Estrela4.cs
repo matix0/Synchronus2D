@@ -28,11 +28,13 @@ public class Estrela4 : MonoBehaviour
     }
     public void active()
     {
-        GetComponent<SpriteRenderer>().sprite = spriteActive;
+        GetComponent<Animator>().SetTrigger("activate");
+        GetComponent<Animator>().ResetTrigger("deactivate");
     }
 
     public void inactive()
     {
-        GetComponent<SpriteRenderer>().sprite = spriteInactive;
+        GetComponent<Animator>().SetTrigger("deactivate");
+        GetComponent<Animator>().ResetTrigger("activate");
     }
 }

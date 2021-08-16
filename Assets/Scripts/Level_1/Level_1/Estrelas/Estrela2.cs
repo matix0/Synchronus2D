@@ -11,6 +11,7 @@ public class Estrela2 : MonoBehaviour
     private void Awake()
     {
         vertex = transform.position;
+        GetComponent<Animator>().SetTrigger("activate");
     }
 
     private void OnMouseDown()
@@ -30,11 +31,13 @@ public class Estrela2 : MonoBehaviour
 
     public void active()
     {
-        GetComponent<SpriteRenderer>().sprite = spriteActive;
+        GetComponent<Animator>().SetTrigger("activate");
+        GetComponent<Animator>().ResetTrigger("deactivate");
     }
 
     public void inactive()
     {
-        GetComponent<SpriteRenderer>().sprite = spriteInactive;
+        GetComponent<Animator>().SetTrigger("deactivate");
+        GetComponent<Animator>().ResetTrigger("activate");
     }
 }

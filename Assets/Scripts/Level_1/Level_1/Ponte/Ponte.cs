@@ -7,6 +7,7 @@ public class Ponte : MonoBehaviour
     public int stage = 0;
     public GameObject particles, ponte2, ponte3, ponte4;
     public Controller controller;
+    public BottomBar bar;
 
     public void updatePonte()
     {
@@ -28,6 +29,7 @@ public class Ponte : MonoBehaviour
                 particles.SetActive(true);
                 controller.progress += 1;
                 controller.updateProgress();
+                bar.c2Active();
                 break;
         }
     }
