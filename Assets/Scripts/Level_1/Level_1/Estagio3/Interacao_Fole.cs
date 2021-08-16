@@ -8,19 +8,22 @@ public class Interacao_Fole : MonoBehaviour
     public Sprite Fole_Fechada;
     public Sprite Fole_Aberta;
     public SpriteRenderer spriteRenderer;
-    public int OrdemClicada = 0;
+    public bool ApertouFole = false;
+    public Interacao_Cobre_Bigorna cobre;
+
 
     // Start is called before the first frame update
- 
+
     void OnMouseDrag()
     {
         spriteRenderer.sprite = Fole_Fechada;
-        //OrdemClicada = 1;
+        
     }
 
     void OnMouseUp()
     {
-        //anim.SetTrigger("Clicou");
         spriteRenderer.sprite = Fole_Aberta;
+        ApertouFole = true;
+        cobre.colisor.enabled = true;
     }
 }

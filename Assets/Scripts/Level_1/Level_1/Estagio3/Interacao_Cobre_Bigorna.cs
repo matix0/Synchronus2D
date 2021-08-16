@@ -2,14 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interacao_Cobre_Fornalha : MonoBehaviour
+public class Interacao_Cobre_Bigorna : MonoBehaviour
 {
-    public Animator anim;
+    //public Animator anim;
     public ZoomInZoomOut AcompanhaCamera;
     public SpriteRenderer spriteRenderer;
+    public BoxCollider2D colisor;
+    public Interacao_Fole Fole;
     public Sprite Capacete_Quente;
     public bool Dentro = false;
+    public int Martelou = 0;
 
+    private void Start()
+    {
+        colisor.enabled = false;
+    }
     public void OnMouseDrag()
     {
         Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1);
@@ -23,11 +30,9 @@ public class Interacao_Cobre_Fornalha : MonoBehaviour
         AcompanhaCamera.trigger = false;
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    /*public void OnTriggerEnter2D(Collider2D collision)
     {
-    }
-
-
+    }*/
 
     public void OnTriggerStay2D(Collider2D collision)
     {
@@ -36,9 +41,18 @@ public class Interacao_Cobre_Fornalha : MonoBehaviour
 
     public void OnMouseDown()
     {
-        if (Dentro == true)
+        if (Fole.ApertouFole == true)
         {
-            spriteRenderer.sprite = Capacete_Quente;
+
+            if (Dentro == true)
+            {
+
+
+                spriteRenderer.sprite = Capacete_Quente;
+                Martelou += 1;
+
+
+            }
         }
     }
 }
