@@ -5,7 +5,6 @@ using UnityEngine;
 public class Interacao_Fole : MonoBehaviour
 {
     //public ZoomInZoomOut AcompanhaCamera;
-    private Animator anim;
     public Sprite Fole_Fechada;
     public Sprite Fole_Aberta;
     public SpriteRenderer spriteRenderer;
@@ -16,12 +15,12 @@ public class Interacao_Fole : MonoBehaviour
     void OnMouseDrag()
     {
         spriteRenderer.sprite = Fole_Fechada;
-        OrdemClicada = 1;
+        //OrdemClicada = 1;
     }
 
     void OnMouseUp()
     {
-        anim.SetTrigger("Clicou");
+        //anim.SetTrigger("Clicou");
         spriteRenderer.sprite = Fole_Aberta;
     }
 }
