@@ -48,7 +48,7 @@ public class Interacao_Cobre_Bigorna : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Balde"))
         {
-            if (Martelou > 2)
+            if (Martelou >= 2)
             {
                 spriteRenderer.sprite = Capacete_Frio;
             }

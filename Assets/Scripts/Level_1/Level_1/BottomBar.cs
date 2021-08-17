@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BottomBar : MonoBehaviour
 {
-    public GameObject c1, c2, c3;
-    public GameObject text;
+    public GameObject c1, c2, c3, text, dica;
     private int stage = 0;
+    private bool dicaFoi = false;
 
     public void c1Active()
     {
@@ -28,8 +28,15 @@ public class BottomBar : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if(!dicaFoi)
+        {
+            dicaFoi = true;
+            dica.SetActive(false);
+        }
+
         if(stage < 3)
         {
+            text.GetComponent<Animator>().ResetTrigger("showText");
             text.GetComponent<Animator>().SetTrigger("showText");
         } 
     }

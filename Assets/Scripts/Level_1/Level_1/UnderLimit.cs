@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UnderLimit : MonoBehaviour
 {
-    public GameObject particulas;
+    public GameObject particulas, audioPedra;
     public Controller controller;
     public BottomBar bar;
 
@@ -16,14 +16,15 @@ public class UnderLimit : MonoBehaviour
             controller.progress += 1;
             controller.updateProgress();
             bar.c1Active();
+            audioPedra.GetComponent<AudioSource>().Play();
         }
 
         if (collision.gameObject.CompareTag("Pedras"))
         {
             controller.progress += 1;
             controller.updateProgress();
+            bar.c3Active();
         }
-        bar.c3Active();
 
         Destroy(collision.gameObject);
     }

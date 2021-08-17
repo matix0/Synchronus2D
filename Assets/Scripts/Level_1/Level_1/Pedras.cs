@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pedras : MonoBehaviour
 {
     GameObject pedra1, pedra2, pedra3;
-    public GameObject particulas;
+    public GameObject particulas, audioPlayer, completeAudio;
 
     void Start()
     {
@@ -21,5 +21,8 @@ public class Pedras : MonoBehaviour
         pedra3.GetComponent<Rigidbody2D>().simulated = true;
 
         particulas.SetActive(true);
+
+        audioPlayer.GetComponent<AudioSource>().Play();
+        completeAudio.GetComponent<AudioSource>().Play();
     }
 }

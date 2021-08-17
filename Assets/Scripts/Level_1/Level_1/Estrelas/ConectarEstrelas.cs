@@ -9,7 +9,7 @@ public class ConectarEstrelas : MonoBehaviour
     public Estrela3 estrela3;
     public Estrela4 estrela4;
 
-    public GameObject complete1, complete2, complete3;
+    public GameObject complete1, complete2, complete3, cam, particles;
 
     private int stage = -1;
     private LineRenderer line;
@@ -88,6 +88,8 @@ public class ConectarEstrelas : MonoBehaviour
                     line.SetPosition(1, currentVertex);
                     complete3.GetComponent<SpriteRenderer>().enabled = true;
                     stage++;
+                    cam.GetComponent<Animator>().SetTrigger("fade_out");
+                    particles.SetActive(true);
                 }
             }
         }
