@@ -277,9 +277,10 @@ GameObject:
   m_Component:
   - component: {fileID: 587037764}
   - component: {fileID: 587037763}
+  - component: {fileID: 587037765}
   m_Layer: 0
   m_Name: Balde_de_Agua
-  m_TagString: Untagged
+  m_TagString: Balde
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -350,6 +351,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &587037765
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587037762}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.011953115, y: 0.09562492}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.580032, y: 2.96}
+    newSize: {x: 3.580032, y: 2.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1736221, y: 2.4340563}
+  m_EdgeRadius: 0
 --- !u!1 &606991578
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +391,6 @@ GameObject:
   - component: {fileID: 606991582}
   - component: {fileID: 606991583}
   - component: {fileID: 606991584}
-  - component: {fileID: 606991585}
   m_Layer: 0
   m_Name: Cobre_Fornalha
   m_TagString: Untagged
@@ -480,7 +506,9 @@ MonoBehaviour:
   colisor: {fileID: 606991581}
   Fole: {fileID: 1583611920}
   Capacete_Quente: {fileID: 21300000, guid: ad90bc80e83cf034dbb20c4203c66d03, type: 3}
-  Dentro: 0
+  Capacete_Frio: {fileID: 21300000, guid: 382dda98e184d8048ad7eaca3cf9d12f, type: 3}
+  Bigorna: 0
+  Balde: 0
   Martelou: 0
 --- !u!50 &606991583
 Rigidbody2D:
@@ -522,22 +550,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &606991585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606991578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 598b96ba76fef7948beeebde1b15ef61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Capacete_Frio: {fileID: 21300000, guid: 382dda98e184d8048ad7eaca3cf9d12f, type: 3}
-  spriteRenderer: {fileID: 606991579}
-  Entrou_Balde: 0
-  bigorna: {fileID: 606991582}
 --- !u!1 &947662583
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +646,7 @@ GameObject:
   - component: {fileID: 1190135437}
   m_Layer: 0
   m_Name: Bigorna
-  m_TagString: Untagged
+  m_TagString: Bigorna
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -718,7 +730,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.9286858}
+  m_Offset: {x: -0.28870797, y: 1.7912066}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -729,7 +741,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.640042, y: 3.490002}
+  m_Size: {x: 4.0626254, y: 3.2150435}
   m_EdgeRadius: 0
 --- !u!1 &1209594562
 GameObject:

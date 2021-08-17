@@ -6,7 +6,6 @@ public class Interacao_Capacete_Agua : MonoBehaviour
 {
     public Sprite Capacete_Frio;
     public SpriteRenderer spriteRenderer;
-    //public Animator anim;
     public bool Entrou_Balde;
     public Interacao_Cobre_Bigorna bigorna;
     // Start is called before the first frame update
@@ -15,11 +14,8 @@ public class Interacao_Capacete_Agua : MonoBehaviour
         Entrou_Balde = true;
     }
 
-    public void OnMouseDown()
+    public void OnMouseDown(Collider2D collision)
     {
-        if (bigorna.Dentro == true && bigorna.Martelou > 2)
-        {
-            spriteRenderer.sprite = Capacete_Frio;
-        }
+
     }
 }

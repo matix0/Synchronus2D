@@ -10,7 +10,9 @@ public class Interacao_Cobre_Bigorna : MonoBehaviour
     public BoxCollider2D colisor;
     public Interacao_Fole Fole;
     public Sprite Capacete_Quente;
-    public bool Dentro = false;
+    public Sprite Capacete_Frio;
+    public bool Bigorna = false;
+    public bool Balde = false;
     public int Martelou = 0;
 
     private void Start()
@@ -24,6 +26,8 @@ public class Interacao_Cobre_Bigorna : MonoBehaviour
 
         AcompanhaCamera.trigger = true;
         transform.position = objPosition;
+
+        
     }
     public void OnMouseUp()
     {
@@ -34,25 +38,52 @@ public class Interacao_Cobre_Bigorna : MonoBehaviour
     {
     }*/
 
-    public void OnTriggerStay2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        Dentro = true;
-    }
+        if (collision.gameObject.CompareTag("Bigorna"))
+        {
+            Bigorna = true;
 
+
+        }
+        if (collision.gameObject.CompareTag("Balde"))
+        {
+            if (Martelou > 2)
+            {
+                spriteRenderer.sprite = Capacete_Frio;
+            }
+
+        }
+    }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bigorna"))
+        {
+            Bigorna = false;
+
+
+        }
+        if (collision.gameObject.CompareTag("Balde"))
+        {
+            Balde = false;
+
+        }
+    }
     public void OnMouseDown()
     {
         if (Fole.ApertouFole == true)
         {
-
-            if (Dentro == true)
+            if (Bigorna == true)
             {
-
-
-                spriteRenderer.sprite = Capacete_Quente;
-                Martelou += 1;
-
+                if (spriteRenderer.sprite != Capacete_Frio)
+                {
+                    spriteRenderer.sprite = Capacete_Quente;
+                    Martelou += 1;
+                }
 
             }
+
+
         }
     }
 }
