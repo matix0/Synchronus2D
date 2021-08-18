@@ -143,7 +143,6 @@ GameObject:
   - component: {fileID: 297613834666323561}
   - component: {fileID: 297613834666323565}
   - component: {fileID: 297613834666323564}
-  - component: {fileID: 297613834666323567}
   m_Layer: 0
   m_Name: Nuvens_Base4
   m_TagString: Untagged
@@ -229,6 +228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f7cc6ed523907418c18ee3a623f6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}
 --- !u!61 &297613834666323564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -255,27 +256,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.02, y: 0.8847742}
   m_EdgeRadius: 0
---- !u!50 &297613834666323567
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297613834666323560}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 7.0958896
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &297613834851888403
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2b7044c053277844aa6fd2555b480d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}
 --- !u!1 &297613834906389150
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2291a8c3c8a33804dbdf94c7a6224fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}
 --- !u!61 &297613834906389149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -657,6 +641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a9ee9370cf32a247b203017c21df32a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}
 --- !u!61 &297613835382975483
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -780,6 +766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e6c14aee6ab56468face1cf68d0c23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}
 --- !u!61 &297613835524272418
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -929,6 +917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74b1beb817dd0564183d8243bdbc7a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}
 --- !u!50 &297613835557520777
 Rigidbody2D:
   serializedVersion: 4
@@ -1073,3 +1063,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f1b03d962648634f8fd39486f381a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  AcompanhaCamera: {fileID: 0}

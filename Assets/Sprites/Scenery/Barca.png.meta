@@ -1,13 +1,28 @@
 fileFormatVersion: 2
-guid: d7d805a8ac1be4f4fb59c86cda0bab81
+guid: a9e34f3edc758fb4aaced9eebe09b16b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5189495352714356610
-    second: ReiELobo_0
+      213: -562473461813220853
+    second: Barca_0
   - first:
-      213: -1208458381323572483
-    second: ReiELobo_1
+      213: -2830022358930534148
+    second: Barca_1
+  - first:
+      213: -3047720997167119650
+    second: Barca_2
+  - first:
+      213: 2115388086035899929
+    second: Barca_3
+  - first:
+      213: 3106937565817126734
+    second: Barca_4
+  - first:
+      213: -7010649851247099817
+    second: Barca_5
+  - first:
+      213: -7213962311198860558
+    second: Barca_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ReiELobo_0
+      name: Barca_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 46
-        width: 516
-        height: 678
+        x: 137
+        y: 1466
+        width: 1240
+        height: 649
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e789be9c8753bf7b0800000000000000
-      internalID: -5189495352714356610
+      spriteID: cf0588d98adb9b8d0800000000000000
+      internalID: -2830022358930534148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ReiELobo_1
+      name: Barca_3
       rect:
         serializedVersion: 2
-        x: 651
-        y: 0
-        width: 1321
-        height: 1242
+        x: 0
+        y: 836
+        width: 1464
+        height: 577
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +157,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfa6d5f3181ba3fe0800000000000000
-      internalID: -1208458381323572483
+      spriteID: 9166346a14e5b5d10800000000000000
+      internalID: 2115388086035899929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barca_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 495
+        width: 310
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb8dd314f0e1b20800000000000000
+      internalID: 3106937565817126734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barca_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 223
+        width: 1214
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75085c3ba1b25be90800000000000000
+      internalID: -7010649851247099817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barca_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 1253
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa9fe9cf7bd2eb90800000000000000
+      internalID: -7213962311198860558
       vertices: []
       indices: 
       edges: []

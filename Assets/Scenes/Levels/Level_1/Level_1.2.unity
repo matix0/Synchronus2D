@@ -625,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 8944182959294976177, guid: 0a02bfa0a6231d64b845af52777d50b0,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8944182959294976189, guid: 0a02bfa0a6231d64b845af52777d50b0,
         type: 3}
@@ -1179,6 +1179,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -10.37
       objectReference: {fileID: 0}
+    - target: {fileID: 297613834319074881, guid: c8b8d2f503ab5da4099461cf087a25b7,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 297613834666323565, guid: c8b8d2f503ab5da4099461cf087a25b7,
         type: 3}
       propertyPath: mainCamera
@@ -1396,7 +1401,6 @@ PrefabInstance:
       objectReference: {fileID: 953024470}
     m_RemovedComponents:
     - {fileID: 297613835557520777, guid: c8b8d2f503ab5da4099461cf087a25b7, type: 3}
-    - {fileID: 297613834666323567, guid: c8b8d2f503ab5da4099461cf087a25b7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c8b8d2f503ab5da4099461cf087a25b7, type: 3}
 --- !u!61 &1673403984 stripped
 BoxCollider2D:
