@@ -23,10 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level_1/Level_1.2.unity
     guid: 1c2f98fd043be2547a34a8cfb193d292
-  - enabled: 1
-    path: Assets/Scenes/Levels/Level_1/Caverna.unity
-    guid: deed93422e3f8e64c96fa3d84a5da045
-  - enabled: 1
-    path: Assets/Scenes/Levels/Level_1/Puzzle_Final.unity
-    guid: 067edfafd7a780c498e6854939500775
   m_configObjects: {}

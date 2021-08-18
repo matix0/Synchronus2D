@@ -2794,6 +2794,7 @@ Transform:
   m_Father: {fileID: 76055650}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1408155937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,6 +2857,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> 91fed6068b5acc0569ce82c74eafcf174eb9d91b
+=======
+>>>>>>> parent of f66c742 (cena caverna)
 --- !u!1001 &1497039239
 PrefabInstance:
   m_ObjectHideFlags: 0
