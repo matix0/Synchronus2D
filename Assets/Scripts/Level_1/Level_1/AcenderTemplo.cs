@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class AcenderTemplo : MonoBehaviour
 {
-    [HideInInspector]
+    //[HideInInspector]
     public Sprite espadaNoLocal;
-    [HideInInspector]
+    //[HideInInspector]
     public Sprite escudoNoLocal;
-    [HideInInspector]
+    //[HideInInspector]
     public Sprite espadaForaDoLocal;
-    [HideInInspector]
+    //[HideInInspector]
     public Sprite escudoForaDoLocal;
-    [HideInInspector]
+    //[HideInInspector]
     public Sprite temploLocal;
-    [HideInInspector]
+    //[HideInInspector]
     public GameObject objectEspada;
-    [HideInInspector]
+    //[HideInInspector]
     public GameObject objectEscudo;
-    [HideInInspector]
+    //[HideInInspector]
     public GameObject acendeTemplo;
 
     private bool espadaTransformada = false;
@@ -30,7 +30,7 @@ public class AcenderTemplo : MonoBehaviour
 
     private BoxCollider2D colEspada, colEscudo;
 
-    [HideInInspector]
+    //[HideInInspector]
     public Camera currentCamera;
 
     void Start()

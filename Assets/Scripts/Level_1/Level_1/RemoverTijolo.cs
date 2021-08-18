@@ -6,6 +6,7 @@ public class RemoverTijolo : MonoBehaviour
 {
     private Animator anim;
     public bool AchouTijolo;
+    public BoxCollider2D BoxEspada;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,5 +17,6 @@ public class RemoverTijolo : MonoBehaviour
     {
         anim.SetTrigger("Clicou");
         AchouTijolo = true;
+        BoxEspada.enabled = true;
     }
 }
